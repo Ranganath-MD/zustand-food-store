@@ -1,9 +1,9 @@
 import React from 'react'
-import { Container, Header, Text } from '@mantine/core'
+import { Container, AppShell, Text } from '@mantine/core'
 
 export const AppHeader = () => {
   return (
-    <Header height={60} padding="md">
+    <AppShell.Header height={60} padding="md">
       <Container size="md">
         <div
           style={{
@@ -17,6 +17,6 @@ export const AppHeader = () => {
           </Text>
         </div>
       </Container>
-    </Header>
+    </AppShell.Header>
   );
 }

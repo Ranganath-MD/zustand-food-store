@@ -8,7 +8,7 @@ import {
 export default function App() {
   return (
     <div className="App">
-      <AppHeader />
+      {/* <AppHeader /> */}
       <Container size="md" padding="md">
         <Routes>
           <Route path="/" element={<Home />} />

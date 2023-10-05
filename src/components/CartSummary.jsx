@@ -122,7 +122,7 @@ export const CartSummary = () => {
         size={250}
         centered
         opened={showModal}
-        hideCloseButton
+        // hideCloseButton
         onClose={() => setShowModal(false)}
       >
         <div

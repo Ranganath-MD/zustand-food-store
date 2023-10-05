@@ -96,7 +96,7 @@ export const YourOrder = () => {
         size={250}
         centered
         opened={showModal}
-        hideCloseButton
+        // hideCloseButton
         onClose={() => setShowModal(false)}
       >
         <div
